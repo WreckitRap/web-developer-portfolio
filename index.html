@@ -15,29 +15,32 @@
         <!-- google font -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 
+        <!-- Ecternal CSS -->
+        <link rel="stylesheet" type="text/css" href="./index.css">
+
 
         <title>Developer Portfolio</title>
 
     </head>
-    <body style="font-family: 'Raleway', serif;">
+    <body>
 
         <!-- LANDING SECTION -->
         
-        <div id="landing"class="nav fixed-top justify-content-center bg-dark p-4">
+        <div id="landing" class="nav fixed-top justify-content-center bg-dark p-4">
 
             <a href="" class="text-decoration-none text-white ml-5">
-                Home
+                HOME
             </a>
-            <a href="" class="text-decoration-none text-white ml-5">
-                About Me
+            <a href="#about-me" class="text-decoration-none text-white ml-5">
+                ABOUT ME
             </a>
-            <a href="" class="text-decoration-none text-white ml-5">
-                Projects
+            <a href="#projects" class="text-decoration-none text-white ml-5">
+                PROJECTS
             </a>
-            <a href="" class="text-decoration-none text-white ml-5">
+            <a href="#tools" class="text-decoration-none text-white ml-5">
                 TOOLS
             </a>
-            <a href="" class="text-decoration-none text-white ml-5">
+            <a href="#contact" class="text-decoration-none text-white ml-5">
                 CONTACT
             </a>
 
@@ -46,7 +49,7 @@
 
         <!-- START OF ABOUT ME SECTION -->
         
-        <div id="about-me" class="text-center mt-5 bg-success">
+        <div id="about-me" class="text-center mt-5 mb-5" style="background-image: url('https://i.pinimg.com/originals/d1/b0/83/d1b083ac9d9344250908137e08d6eb20.jpg'); background-size: cover;">
             <div style="width: 25%;" class="mx-auto">
                 <img id="profilePicture"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ-PGSsyCBi2ne_v4NlgxAf8AqBwgYs_SEoo415spIVT883vyRyfMObZ9Cc0wgsWPiHC0&usqp=CAU" class="rounded-circle img-fluid overflow-hidden mt-5"/>
                 
@@ -58,16 +61,15 @@
                 </div>
             </div>
             <h2 class="text-center mt-5 text-light">About Me</h2>
-            <p style="width: 50%;" class="mx-auto mt-3 text-light">
+            <p style="width: 50%; " class="mx-auto mt-3 mb-3 text-light">
                 Collaboration and communication are key aspects of my work. I strive to understand client goals and translate them into functional requirements, ensuring that every element of the website aligns with their vision. I am proficient in working with design tools like Adobe Photoshop and Sketch, enabling me to seamlessly integrate design concepts into the development process.
             </p>
         </div>
         <!-- End of About Me -->
 
         <!-- START OF PROJECTS SECTION -->
-            <h2 class="text-center mt-5 text-light">My Projects</h2>
-            <div id="projects" class="text-center bg-gray-200 p-4 mb-3">
-
+            <h2 id="projects" class="text-center mt-5 mb-5 text-darkt">My Projects</h2>
+            <div id="projects-1" class="text-center p-5">
                 <div style="width: 25%;" class="d-inline-block rounded bg-dark text-light p-3 m-2">
                 <img src="images/html.jpg" class="img-fluid">
                     <h3 class="mt-2">My First Project</h3>
@@ -89,16 +91,16 @@
             <!-- END OF PROJECTS SECTION --> 
 
             <!-- START OF TOOLS SECTION -->
-            <h3 class="text-center mt-5 text-light">Tools</h3>
-                <div id="tools" class="p-3 d-flex flex-md-column align-items-center">
-                    <div id="tools-1" class="flex-md-column">             
+            <h3 id="tools" class="text-center mt-5 mb-5 text-dark">Tools</h3>
+                <div id="tools-1" class="p-3 d-flex flex-md-column align-items-center bg-success">
+                    <div id="tools-2" class="flex-md-column">             
                         <img width="150" src="images/logo-mongodb.png"/>
                         <img width="150" src="images/logo-nodejs.png"/>
                         <img width="150" src="images/logo-expressjs.png"/>
                         <img width="150" src="images/logo-react.png"/>
                         <img width="150" src="images/logo-heroku.png"/>
                     </div>
-                    <div id="tools-2" class="flex-md-column">
+                    <div id="tools-3" class="flex-md-column">
                         <img width="150" src="images/logo-git.png"/>
                         <img width="150" src="images/logo-sublime-text-3.png"/>
                         <img width="150" src="images/logo-postman.png"/>
@@ -110,8 +112,8 @@
         
 
         <!-- Contact Section -->
-        <h3 class="text-center mt-5 mb-5 text-light">Contact Me</h3>
-        <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route text-light">
+        <h3 id="contact" class="text-center mt-5 mb-5 text-dark">Contact Me</h3>
+        <section id="contact-1" class="paralax-mf footer-paralax bg-image sect-mt4 route text-light p-3">
           <div class="container">
             <div class="row">
               <div class="col-sm-12">

@@ -1,0 +1,25 @@
+body {
+	font-family: 'Raleway', serif;
+	background-color: #F5E6D8;
+}
+
+#about-me {
+	height: 80vh;
+}
+
+#projects-1 {
+	background-image: url('https://www.shutterstock.com/image-photo/mock-computer-laptop-coffee-cup-260nw-2101271932.jpg');
+	background-size: cover;
+	height: 60vh;
+}
+
+#tools-1 {
+	background-image: url('https://wallpaperaccess.com/full/1880029.jpg');
+	background-size: cover;
+	height: 60vh;
+}
+
+#contact-1 {
+	background-image: url('https://www.gdmsserviceslondon.co.uk/images/contactUs.jpg');
+	background-size: cover;
+}
